@@ -19,7 +19,7 @@ class mango{
 		var mangoPos=this.body.position;	
 		push()
 		translate(mangoPos.x, mangoPos.y);
-		// rectMode(CENTER);
+		rectMode(CENTER);
 		rotate(this.body.angle)
 		fill(255,0,255)
 		imageMode(CENTER);
